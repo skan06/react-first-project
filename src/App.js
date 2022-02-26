@@ -47,7 +47,7 @@ function App() {
 <div className='ttr'> <h1>All destination for tourism with the best offers </h1></div>
 <div className='cartArea'>
       <Card style={{ width: '18rem',borderRadius:'10px' }}>
-  <Card.Img className='cmg' variant="top" src="./berlin.jpg"/>
+  <Card.Img className='cmg' variant="top" src="./berlin.jpg" alt='berlin'/>
   <Card.Body>
     <Card.Title>Berlin</Card.Title>
     <Card.Text>
@@ -58,7 +58,7 @@ function App() {
 </Card>
 
 <Card style={{ width: '18rem',borderRadius:'10px' }}>
-  <Card.Img className='cmg' variant="top" src="./bangkok.jpg" />
+  <Card.Img className='cmg' variant="top" src="./bangkok.jpg" alt='bangkok'/>
   <Card.Body>
     <Card.Title>Bangkok</Card.Title>
     <Card.Text>
@@ -69,7 +69,7 @@ function App() {
 </Card>
 
 <Card style={{ width: '18rem',borderRadius:'10px' }}>
-  <Card.Img className='cmg' variant="top" src="./california.jpg" />
+  <Card.Img className='cmg' variant="top" src="./california.jpg" alt='california'/>
   <Card.Body>
     <Card.Title>California</Card.Title>
     <Card.Text>
